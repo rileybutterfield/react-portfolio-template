@@ -17,13 +17,14 @@ const Skills = () => {
             ))}
           </div>
         </div>
-        <Fade bottom className = "resume-btn">
+        <Fade bottom>
             <a
               href="https://drive.google.com/file/d/1QmyapopiG01xUYX4Jr_TYggSCHtbg894/view?usp=sharing"
               target="_blank"
-              className="resume-btn"
             >
+              <button className="resume-btn">
               VIEW MY RESUME
+              </button>
             </a>
           </Fade>
       </div>

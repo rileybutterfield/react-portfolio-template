@@ -27,9 +27,11 @@ const Header = () => {
           <Fade bottom>
             <a
               href="https://www.linkedin.com/in/rileybutterfield/"
-              className="primary-btn"
+              target="_blank"
             >
+              <button className = "primary-btn">
               CONNECT WITH ME
+              </button>
             </a>
           </Fade>
         </div>
