@@ -26,7 +26,7 @@ export default {
   name: "Riley",
   headerTagline: [
     //Line 1 For Header
-    "I'm Software Engineer",
+    "I'm a Software Engineer",
     //Line 2 For Header
     "etc",
     //Line 3 For Header
@@ -34,7 +34,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "I'm an software engineer living in Brooklyn, NY.",
+    "I'm a software engineer living in Brooklyn, NY.",
 
   //Contact Email
   contactEmail: "rileybutterfield1@gmail.com",
