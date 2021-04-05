@@ -1,4 +1,5 @@
 import React from "react"
+import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
 const Skills = () => {
@@ -16,6 +17,15 @@ const Skills = () => {
             ))}
           </div>
         </div>
+        <Fade bottom className = "resume-btn">
+            <a
+              href={`resume.pdf`}
+              className="resume-btn"
+              download
+            >
+              DOWNLOAD MY RESUME
+            </a>
+          </Fade>
       </div>
     </div>
   )
