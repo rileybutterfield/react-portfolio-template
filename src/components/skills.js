@@ -19,11 +19,10 @@ const Skills = () => {
         </div>
         <Fade bottom className = "resume-btn">
             <a
-              href={`resume.pdf`}
+              href="https://drive.google.com/file/d/11ZAIH690oPzzAyn8gYg-KBGHSR2lXAua/view?usp=sharing"
               className="resume-btn"
-              download
             >
-              DOWNLOAD MY RESUME
+              VIEW MY RESUME
             </a>
           </Fade>
       </div>

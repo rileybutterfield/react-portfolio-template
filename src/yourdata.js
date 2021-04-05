@@ -81,7 +81,7 @@ export default {
         "Co-authored policy brief advocating for improved and equitable tech access for all students",
       imageSrc:
         "https://i.ibb.co/VDp8Fsv/digitaldivide.png",
-      url: "policy-brief.pdf",
+      url: "https://drive.google.com/file/d/1j7TJeirBQoR8-LaX3weGpt21wdD3U35l/view",
     },
     {
       title: "See more on GitHub",
