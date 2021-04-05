@@ -44,84 +44,62 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "seeQL",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "An NPM library and graphical user interface that allows users to build SQL queries and visualize results using their own data",
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+        "seeql.png",
+      url: "https://seeql-app.herokuapp.com/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Popcorn",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "A dating-app-esque movie swiping mobile app that generates a movie watch list based on paired user preferences", // Add
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+        "popcorn.png",
+      url: "https://expo.io/@rileybutterfield/projects/Popcorn",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Grace Bakes",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "A full stack e-commerce website with Stripe integration built for selling delicious pastries and beverages ",
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+        "gracebakes.png",
+      url: "https://grace-bakes.herokuapp.com/",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Guide to Publishing an NPM Package",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "Blog post and guided walkthrough for publishing your first custom-built package to NPM",
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+        "npmblog.png",
+      url: "https://rileybutterfield.medium.com/a-guide-to-publishing-your-first-npm-package-36db1ce7760f",
     },
     {
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Disrupt the Digital Divide",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "Co-authored policy brief advocating for improved and equitable tech access for all students",
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+        "digitaldivide.png",
+      url: "policy-brief.pdf",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "See more on GitHub",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "View more of my public repositories on my GitHub profile",
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+        "more.png",
+      url: "https://github.com/rileybutterfield",
     },
-
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
   // End Work Section -----------------------
 
   // About Secton --------------
   aboutParaOne:
-    "Before transitioning into tech, I worked as an educator. I was introduced to the tech world when I was working as a Web Development Program Manager at an education non-profit. I was immediately fascinated by the power of code. I started with self-guided learning, focusing primarily on HTML, CSS, and JavaScript. I fell more in love with code with each line I wrote and, eventually, decided to make the leap into tech for good.",
+    "Before transitioning into tech, I worked as an educator. I was introduced to the tech world when I was working as a Web Development Program Manager at an education non-profit. Immediately, I became fascinated by the power of code. I started with self-guided learning, focusing primarily on HTML, CSS, and JavaScript. I fell more in love with code with each line I wrote and, eventually, decided to make the leap into tech for good.",
   aboutParaTwo:
-    "In August 2020, I had my first day of classes with the Grace Hopper Program at Fullstack Academy, a highly selective coding bootcamp for women and non-binary people. At Grace Hopper, I deepened my existing skills and was certified in the NERP (Node.js, Express.js, React, PostgreSQL) stack. Before I knew it, I was dreaming in code. Now, I am working as a Software Engineering Fellow at Fullstack Academy, where I serve as a technical manager for student projects, lead weekly code reviews, instruct on data structures and algorithms, and run technical admissions interviews.",
+    "In August 2020, I had my first day of classes with the Grace Hopper Program at Fullstack Academy, a top coding bootcamp for women and non-binary people. At Grace Hopper, I deepened my existing skills, learned new frameworks, and was certified in the NERP (Node.js, Express.js, React, PostgreSQL) stack. Before I knew it, I was dreaming in code. Now, I am working as a Senior Software Engineering Fellow at Fullstack Academy, where I serve as a technical manager for student projects, lead weekly code reviews, instruct on data structures and algorithms, and run technical admissions interviews.",
   aboutParaThree:
     "When I'm not learning new tech (I'm learning TypeScript now!), you can find me curating Spotify playlists, watching reruns of Jeopardy, or admiring the beauty of NYC.",
   aboutImage: "public/static/RileyButterfield.jpg",
