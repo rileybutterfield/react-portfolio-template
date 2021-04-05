@@ -48,7 +48,7 @@ export default {
       para:
         "An NPM library and graphical user interface that allows users to build SQL queries and visualize results using their own data",
       imageSrc:
-        "seeql.png",
+        "https://i.ibb.co/yf8t9WW/seeql.png",
       url: "https://seeql-app.herokuapp.com/",
     },
     {
@@ -56,7 +56,7 @@ export default {
       para:
         "A dating-app-esque movie swiping mobile app that generates a movie watch list based on paired user preferences", // Add
       imageSrc:
-        "popcorn.png",
+        "https://i.ibb.co/8mDVQZk/popcorn.png",
       url: "https://expo.io/@rileybutterfield/projects/Popcorn",
     },
     {
@@ -64,7 +64,7 @@ export default {
       para:
         "A full stack e-commerce website with Stripe integration built for selling delicious pastries and beverages ",
       imageSrc:
-        "gracebakes.png",
+        "https://i.ibb.co/BqscHg4/gracebakes.png",
       url: "https://grace-bakes.herokuapp.com/",
     },
     {
@@ -72,7 +72,7 @@ export default {
       para:
         "Blog post and guided walkthrough for publishing your first custom-built package to NPM",
       imageSrc:
-        "npmblog.png",
+        "https://i.ibb.co/YtDfWF2/npmblog.png",
       url: "https://rileybutterfield.medium.com/a-guide-to-publishing-your-first-npm-package-36db1ce7760f",
     },
     {
@@ -80,7 +80,7 @@ export default {
       para:
         "Co-authored policy brief advocating for improved and equitable tech access for all students",
       imageSrc:
-        "digitaldivide.png",
+        "https://i.ibb.co/VDp8Fsv/digitaldivide.png",
       url: "policy-brief.pdf",
     },
     {
@@ -88,10 +88,11 @@ export default {
       para:
         "View more of my public repositories on my GitHub profile",
       imageSrc:
-        "more.png",
+        "https://i.ibb.co/262Q9BR/more.png",
       url: "https://github.com/rileybutterfield",
     },
   ],
+
 
   // End Work Section -----------------------
 
