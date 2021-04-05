@@ -15,6 +15,7 @@
   }
   .content {
     width: 50%;
+    line-height: 25px;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
@@ -39,7 +40,7 @@
     }
   }
   .image-wrapper {
-    width: 50%;
+    width: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
