@@ -3,13 +3,19 @@ import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import nodeIcon from "./images/node.svg"
+import expressIcon from "./images/express.svg"
+import postgresIcon from "./images/postgresql.svg"
+import reduxIcon from "./images/redux.svg"
+import apiIcon from "./images/api.svg"
+import gitIcon from "./images/git.svg"
+import sequelizeIcon from "./images/sequelize.svg"
+import pwaIcon from "./images/pwa1.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
+import linkedinIcon from "./images/linkedin.svg"
+import gmailIcon from "./images/gmail.svg"
 import instagramIcon from "./images/instagram.svg"
 
 export default {
@@ -17,21 +23,21 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Riley",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "I'm Software Engineer",
     //Line 2 For Header
-    "products, brands,",
+    "etc",
     //Line 3 For Header
-    "and experience",
+    "etc",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "I'm an software engineer living in Brooklyn, NY.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "rileybutterfield1@gmail.com",
 
   // End Header Details -----------------------
 
@@ -113,13 +119,12 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Before transitioning into tech, I worked as an educator. I was introduced to the tech world when I was working as a Web Development Program Manager at an education non-profit. I was immediately fascinated by the power of code. I started with self-guided learning, focusing primarily on HTML, CSS, and JavaScript. I fell more in love with code with each line I wrote and, eventually, decided to make the leap into tech for good.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "In August 2020, I had my first day of classes with the Grace Hopper Program at Fullstack Academy, a highly selective coding bootcamp for women and non-binary people. At Grace Hopper, I deepened my existing skills and was certified in the NERP (Node.js, Express.js, React, PostgreSQL) stack. Before I knew it, I was dreaming in code. Now, I am working as a Software Engineering Fellow at Fullstack Academy, where I serve as a technical manager for student projects, lead weekly code reviews, instruct on data structures and algorithms, and run technical admissions interviews.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "When I'm not learning new tech (I'm learning TypeScript now!), you can find me curating Spotify playlists, watching reruns of Jeopardy, or admiring the beauty of NYC.",
+  aboutImage: "public/static/RileyButterfield.jpg",
 
   //   End About Section ---------------------
 
@@ -129,34 +134,64 @@ export default {
 
   skills: [
     {
-      img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "JavaScript ES6",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "React",
     },
     {
-      img: designIcon,
+      img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "HTML5",
     },
     {
-      img: codeIcon,
+      img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS3",
+    },
+    {
+      img: nodeIcon,
+      para:
+        "Node.js",
+    },
+    {
+      img: expressIcon,
+      para:
+        "Express.js",
+    },
+    {
+      img: postgresIcon,
+      para:
+        "PostgreSQL",
+    },
+    {
+      img: reduxIcon,
+      para:
+        "Redux",
+    },
+    {
+      img: sequelizeIcon,
+      para:
+        "Sequelize",
+    },
+    {
+      img: pwaIcon,
+      para:
+        "Progressive Web Apps",
+    },
+    {
+      img: gitIcon,
+      para:
+        "Git",
+    },
+    {
+      img: apiIcon,
+      para:
+        "REST APIs",
     },
   ],
 
@@ -164,32 +199,27 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  promotionHeading: "Up Next",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I'm currently looking for my next role! I am hoping to land somewhere that is using technology for good to make material impact in our society. I am excited about working on collaborative teams with individuals who love what they do. Does that sound like your company? Drop me a line below!",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Get in touch!",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/rileybutterfield" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/rileybutterfield",
     },
     {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
+      img: gmailIcon,
+      url: "mailto:rileybutterfield1@gmail.com",
     },
   ],
 
   // End Contact Section ---------------
 }
 
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
