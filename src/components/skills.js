@@ -19,7 +19,8 @@ const Skills = () => {
         </div>
         <Fade bottom className = "resume-btn">
             <a
-              href="https://drive.google.com/file/d/11ZAIH690oPzzAyn8gYg-KBGHSR2lXAua/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QmyapopiG01xUYX4Jr_TYggSCHtbg894/view?usp=sharing"
+              target="_blank"
               className="resume-btn"
             >
               VIEW MY RESUME
