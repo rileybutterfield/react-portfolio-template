@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import ContactForm from "./contactform"
 
 const Footer = () => {
   return (
@@ -11,6 +12,8 @@ const Footer = () => {
             <h1>Contact</h1>
             <h2>{data.contactSubHeading}</h2>
           </Fade>
+          <ContactForm action="https://www.flexyform.com/f/97ee130a21d61b5b8be329fc53c8d7846b460472"/>
+          <p>Or email me directly at:</p>
           <a className="email-link" href={`mailto:${data.contactEmail}`}>
             {data.contactEmail}
           </a>
