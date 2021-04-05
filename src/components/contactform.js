@@ -19,7 +19,7 @@ class ContactForm extends React.Component {
         </div>
         <div>
           <label>Message</label>
-          <textarea name="message" rows="5"></textarea>
+          <textarea name="message" rows="10"></textarea>
         </div>
         <div className="actions" style={buttonsStyle}>
               <button type="submit"  className="primary-btn">Send</button>
