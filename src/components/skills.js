@@ -7,6 +7,7 @@ const Skills = () => {
     <div className="section">
       <div className="container">
         <div className="skills-container">
+          <Fade bottom cascade>
           <h1>Skills</h1>
           <div className="skills-grid">
             {data.skills.map((skill, index) => (
@@ -18,6 +19,7 @@ const Skills = () => {
               </div>
             ))}
           </div>
+        </Fade>
         </div>
         <Fade bottom>
             <a

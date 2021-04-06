@@ -2,16 +2,11 @@ import React from "react"
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
   return (
-    <a
-    href={projectLink ? projectLink : "#"}
-    target="_blank"
-    style={{textDecoration:"none"}}
-  >
     <div
       className="card"
       style={{
         backgroundImage:
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),url(" +
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),url(" +
           imgUrl +
           ")", backgroundSize: "cover"
       }}
@@ -29,7 +24,6 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         </a>
       </div>
     </div>
-    </a>
   )
 }
 

@@ -13,12 +13,14 @@ const Footer = () => {
             <h2>{data.contactSubHeading}</h2>
           </Fade>
           <ContactForm action="https://www.flexyform.com/f/97ee130a21d61b5b8be329fc53c8d7846b460472"/>
+          <Fade bottom cascade>
           <p>Or email me directly at:</p>
           <a className="email-link" href={`mailto:${data.contactEmail}`} style={{
           color: 'var(--textNormal)',
         }}>
             {data.contactEmail}
           </a>
+          </Fade>
           <div className="social-icons">
             {data.social.map((socialLink, index) => (
               <a
