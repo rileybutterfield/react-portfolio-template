@@ -14,9 +14,17 @@ const Navbar = () => {
             Riley Butterfield - Portfolio.
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Work</button>
-            <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <button onClick={() => scrollTo("#work")} style={{
+          color: 'var(--textNormal)',
+          }}>Work</button>
+            <button onClick={() => scrollTo("#about")}
+            style={{
+              color: 'var(--textNormal)',
+            }}>About</button>
+            <button onClick={() => scrollTo("#contact")}
+            style={{
+              color: 'var(--textNormal)',
+            }}>Contact</button>
           </div>
         </div>
       </div>

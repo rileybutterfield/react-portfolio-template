@@ -14,7 +14,9 @@ const Footer = () => {
           </Fade>
           <ContactForm action="https://www.flexyform.com/f/97ee130a21d61b5b8be329fc53c8d7846b460472"/>
           <p>Or email me directly at:</p>
-          <a className="email-link" href={`mailto:${data.contactEmail}`}>
+          <a className="email-link" href={`mailto:${data.contactEmail}`} style={{
+          color: 'var(--textNormal)',
+        }}>
             {data.contactEmail}
           </a>
           <div className="social-icons">
@@ -25,7 +27,9 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={socialLink.img} alt="icons"></img>
+                <img src={socialLink.img} alt="icons" style={{
+              filter: 'var(--iconFilter)',
+              }}></img>
               </a>
             ))}
           </div>

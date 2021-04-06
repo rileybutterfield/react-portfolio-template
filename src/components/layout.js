@@ -11,10 +11,16 @@ import "../styles/mains.scss"
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div
+        style={{
+          backgroundColor: 'var(--bg)',
+          color: 'var(--textNormal)',
+          transition: 'color 0.2s ease-out, background 0.2s ease-out',
+        }}
+      >
       <Navbar></Navbar>
       <main>{children}</main>
-    </>
+    </div>
   )
 }
 export default Layout

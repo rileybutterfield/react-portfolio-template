@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import ThemeToggle from "./themetoggler"
 
 const Header = () => {
   return (
@@ -29,10 +30,13 @@ const Header = () => {
               href="https://www.linkedin.com/in/rileybutterfield/"
               target="_blank"
             >
-              <button className = "primary-btn">
+              <button className = "primary-btn" style={{
+              color: 'var(--bg)',
+              backgroundColor:'var(--buttonBg)',}}>
               CONNECT WITH ME
               </button>
             </a>
+            <ThemeToggle />
           </Fade>
         </div>
       </div>
