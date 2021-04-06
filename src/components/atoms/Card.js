@@ -2,6 +2,11 @@ import React from "react"
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
   return (
+    <a
+    href={projectLink ? projectLink : "#"}
+    target="_blank"
+    style={{textDecoration:"none"}}
+  >
     <div
       className="card"
       style={{
@@ -24,6 +29,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         </a>
       </div>
     </div>
+    </a>
   )
 }
 
