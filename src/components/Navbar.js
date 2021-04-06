@@ -21,6 +21,10 @@ const Navbar = () => {
             style={{
               color: 'var(--textNormal)',
             }}>About</button>
+            <button onClick={() => scrollTo("#skills")}
+            style={{
+              color: 'var(--textNormal)',
+            }}>Skills</button>
             <button onClick={() => scrollTo("#contact")}
             style={{
               color: 'var(--textNormal)',
