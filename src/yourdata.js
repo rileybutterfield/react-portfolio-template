@@ -57,7 +57,7 @@ export default {
         "A dating-app-esque movie swiping mobile app that generates a movie watch list based on paired user preferences", // Add
       imageSrc:
         "https://i.ibb.co/8mDVQZk/popcorn.png",
-      url: "https://expo.io/@rileybutterfield/projects/Popcorn",
+      url: "https://github.com/rileybutterfield/popcorn",
     },
     {
       title: "Grace Bakes",
