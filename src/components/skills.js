@@ -8,31 +8,39 @@ const Skills = () => {
       <div className="container">
         <div className="skills-container">
           <Fade bottom cascade>
-          <h1>Skills</h1>
-          <div className="skills-grid">
-            {data.skills.map((skill, index) => (
-              <div className="skill" key={index}>
-                <img src={skill.img} alt="skill" style={{
-              filter: 'var(--iconFilter)',
-              }}></img>
-                <p>{skill.para}</p>
-              </div>
-            ))}
-          </div>
-        </Fade>
+            <h1>Skills</h1>
+            <div className="skills-grid">
+              {data.skills.map((skill, index) => (
+                <div className="skill" key={index}>
+                  <img
+                    src={skill.img}
+                    alt="skill"
+                    style={{
+                      filter: "var(--iconFilter)",
+                    }}
+                  ></img>
+                  <p>{skill.para}</p>
+                </div>
+              ))}
+            </div>
+          </Fade>
         </div>
         <Fade bottom>
-            <a
-              href="https://drive.google.com/file/d/1QmyapopiG01xUYX4Jr_TYggSCHtbg894/view?usp=sharing"
-              target="_blank"
+          <a
+            href="https://drive.google.com/file/d/1yOQ0_B6WEtcAo73LPFHWQ3FD86ZZjXDK/view?usp=sharing"
+            target="_blank"
+          >
+            <button
+              className="resume-btn"
+              style={{
+                color: "var(--bg)",
+                backgroundColor: "var(--buttonBg)",
+              }}
             >
-              <button className="resume-btn" style={{
-              color: 'var(--bg)',
-              backgroundColor:'var(--buttonBg)',}}>
               VIEW MY RESUME
-              </button>
-            </a>
-          </Fade>
+            </button>
+          </a>
+        </Fade>
       </div>
     </div>
   )
