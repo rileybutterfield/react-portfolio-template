@@ -160,7 +160,7 @@ export default {
 
   promotionHeading: "Up Next",
   promotionPara:
-    "Currently, I work as an engineer at One Drop, a health tech startup based in NYC. I'm passionate about using technology for good to make material impact in our society and I am excited about working on collaborative teams with individuals who love what they do. Let's connect!",
+    "I'm passionate about using technology for good to make material impact in our society and I am excited about working on collaborative teams with individuals who love what they do. Let's connect!",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
