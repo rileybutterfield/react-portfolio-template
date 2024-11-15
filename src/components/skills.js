@@ -27,7 +27,7 @@ const Skills = () => {
         </div>
         <Fade bottom>
           <a
-            href="https://drive.google.com/file/d/1yOQ0_B6WEtcAo73LPFHWQ3FD86ZZjXDK/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iPFPZBSPUc1tSbmJgseYKX8DaOc-2uxN/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
