@@ -27,7 +27,7 @@ class ContactForm extends React.Component {
               color: 'var(--messageText)',
               }}></textarea>
         </div>
-        <div className="actions" style={buttonsStyle} style={{
+        <div className="actions" style={{...buttonsStyle, 
           textAlign: 'center',
         }}>
               <button type="submit"  className="primary-btn" style={{

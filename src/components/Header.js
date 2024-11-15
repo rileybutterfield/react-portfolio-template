@@ -29,6 +29,7 @@ const Header = () => {
             <a
               href="https://www.linkedin.com/in/rileybutterfield/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <button className = "primary-btn" style={{
               color: 'var(--bg)',

@@ -29,6 +29,7 @@ const Skills = () => {
           <a
             href="https://drive.google.com/file/d/1yOQ0_B6WEtcAo73LPFHWQ3FD86ZZjXDK/view?usp=sharing"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <button
               className="resume-btn"

@@ -12,27 +12,24 @@ import gitIcon from "./images/git.svg"
 import sequelizeIcon from "./images/sequelize.svg"
 import pwaIcon from "./images/pwa1.svg"
 
-// Social Icon
+// Social Icons
 import githubIcon from "./images/github.svg"
 import linkedinIcon from "./images/linkedin.svg"
 import gmailIcon from "./images/gmail.svg"
 
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
-
   //   Header Details ---------------------
   name: "Riley",
-  headerTagline: [
-    //Line 1 For Header
-    "I'm a Software Engineer",
-    //Line 2 For Header
-    "etc",
-    //Line 3 For Header
-    "etc",
-  ],
+  // headerTagline: [
+  //   //Line 1 For Header
+  //   "I'm a Software Engineer",
+  //   //Line 2 For Header
+  //   "etc",
+  //   //Line 3 For Header
+  //   "etc",
+  // ],
   //   Header Paragraph
-  headerParagraph: "I'm a software engineer living in Brooklyn, NY.",
+  headerParagraph: "I'm a software engineer living in Los Angeles, CA.",
 
   //Contact Email
   contactEmail: "rileybutterfield1@gmail.com",
@@ -90,11 +87,12 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Before transitioning into tech, I worked as an educator. I was introduced to the tech world when I was working as a Web Development Program Manager at an education non-profit. Immediately, I became fascinated by the power of code. I started with self-guided learning, focusing primarily on HTML, CSS, and JavaScript. I fell more in love with code with each line I wrote and, eventually, decided to make the leap into tech for good.",
+    "Before transitioning into tech, I worked as an educator. I was introduced to the tech world when I was working as a Web Development Program Manager at an education non-profit. Immediately, I became fascinated by the power of code. I started with self-guided learning, focusing primarily on HTML, CSS, JavaScript, and JQuery. I fell more in love with code with each line I wrote and, eventually, decided to make the leap into tech for good.",
   aboutParaTwo:
-    "In August 2020, I had my first day of classes with the Grace Hopper Program at Fullstack Academy, a top coding bootcamp for women and non-binary people. At Grace Hopper, I deepened my existing skills, learned new frameworks, and was certified in the NERP (Node.js, Express.js, React, PostgreSQL) stack. Before I knew it, I was dreaming in code. Now, I am working as a Senior Software Engineering Fellow at Fullstack Academy, where I serve as a technical manager for student projects, lead weekly code reviews, instruct on data structures and algorithms, and run technical admissions interviews. Ever since, I've been working full-time as an engineer and learning more and more every day!",
-  aboutParaThree:
-    "When I'm not learning new tech (I'm learning D3.js now!), you can find me curating Spotify playlists, watching reruns of Jeopardy, or admiring the beauty of NYC.",
+    "Eventually, I made the decision to deepen my knowledge through an immersive full stack development program specializing in the NERP (Node, Express, React, PostgreSQL) stack. Since then, I have worked in the startup, SaaS, e-commerce, EdTech, and HealthTech spaces. I'm a fullstack engineer, though I tend towards the frontend much of the time. My expertise is in TypeScript, React, and Next.js on the frontend and I have experience with Python, Django, and FastAPI on the backend. I have strong opinions on global state management tools and CSS frameworks and would love to chat about favorites (spoiler alert -- they are Jotai, ReactQuery, and TailwindCSS).",
+  aboutParaThree: "Right now, I'm a Senior Software Engineer at AxiosHQ, a SaaS company in the internal communications space. On the day-to-day, you can find me building out our component library, building Slack, SharePoint, and Teams integrations, developing for email clients, writing a design doc, or obsessing over solving that one bug that makes no sense to anyone.",
+  aboutParaFour:
+    "When I'm not learning new tech, you can find me curating Spotify playlists, watching reruns of Jeopardy, or walking around the neighborhood with my sweet rescue pup, Wuggy.",
   aboutImage: "public/static/RileyButterfield.jpg",
 
   //   End About Section ---------------------
@@ -160,7 +158,7 @@ export default {
 
   promotionHeading: "Up Next",
   promotionPara:
-    "I'm passionate about using technology for good to make material impact in our society and I am excited about working on collaborative teams with individuals who love what they do. Let's connect!",
+    "I'm passionate about using technology for good to make material impact in our society and I am excited about working on collaborative teams with individuals who love what they do. I'm always up for contributing to an open source project -- let's connect!",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
